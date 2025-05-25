@@ -1,0 +1,102 @@
+[
+    {
+        "soru": "Can hangi şehirde yaşıyor?",
+        "siklar": [
+            "İstanbul",
+            "Ankara",
+            "İzmir",
+            "Bursa"
+        ],
+        "dogru": 0
+    },
+    {
+        "soru": "Canın doğum günü?",
+        "siklar": [
+            "14 ARALIK",
+            "16 ARALIK",
+            "12 KASIM",
+            "13 ARALIK"
+        ],
+        "dogru": 0
+    },
+    {
+        "soru": "Canın tuttuğu takımın renkleri hangileridir?",
+        "siklar": [
+            "Siyah-Beyaz",
+            "Sarı-Kırmızı",
+            "Yeşil-Beyaz",
+            "Mavi-Kırmızı"
+        ],
+        "dogru": 1
+    },
+    {
+        "soru": "Canın en sevdiği yemek hangisidir?",
+        "siklar": [
+            "Fırında makarna",
+            "Pizza",
+            "Lahmacun",
+            "İçli köfte"
+        ],
+        "dogru": 3
+    },
+    {
+        "soru": "Canın babası kaç kardeştir?",
+        "siklar": [
+            "4",
+            "16",
+            "12",
+            "10"
+        ],
+        "dogru": 1
+    },
+    {
+        "soru": "Can dünyadaki en çok istediği şey?",
+        "siklar": [
+            "Mutluluk",
+            "Hatice",
+            "Para",
+            "Huzur"
+        ],
+        "dogru": 1
+    },
+    {
+        "soru": "Canın ilkokuldaki öğretmeninin adı?",
+        "siklar": [
+            "Muhammed",
+            "Mustafa",
+            "Murat",
+            "Mehmet"
+        ],
+        "dogru": 1
+    },
+    {
+        "soru": "Can evlenince nereye yerleşicek?",
+        "siklar": [
+            "İstanbul",
+            "Konya",
+            "İtalya",
+            "Aydın"
+        ],
+        "dogru": 2
+    },
+    {
+        "soru": "Canın en sevdiği kuzeninin adı?",
+        "siklar": [
+            "Murat",
+            "Adacan",
+            "Burak",
+            "Deniz"
+        ],
+        "dogru": 1
+    },
+    {
+        "soru": "Hatice Canla evlenicek mi?",
+        "siklar": [
+            "Düşüncem",
+            "Evet",
+            "Belki",
+            "Hayır"
+        ],
+        "dogru": 0
+    }
+]

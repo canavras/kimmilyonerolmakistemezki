@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kim Milyoner Olmak İstemez Ki</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: url('background.jpg') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      text-align: center;
+    }
+
+    .logo {
+      margin-top: 20px;
+      width: 300px;
+    }
+
+    .question-box {
+      margin: 30px auto;
+      background-color: rgba(0, 0, 50, 0.8);
+      border-radius: 15px;
+      width: 80%;
+      padding: 20px;
+      font-size: 1.5rem;
+      box-shadow: 0 0 20px gold;
+    }
+
+    .options {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    .option {
+      background-color: rgba(0, 0, 100, 0.8);
+      padding: 15px;
+      border-radius: 10px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      transition: 0.3s;
+      border: 2px solid white;
+    }
+
+    .option:hover {
+      background-color: gold;
+      color: black;
+    }
+
+    .lifelines {
+      margin: 20px auto;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .lifeline {
+      width: 50px;
+      cursor: pointer;
+    }
+
+    .money-ladder {
+      position: absolute;
+      right: 20px;
+      top: 100px;
+      text-align: right;
+    }
+
+    .money-step {
+      padding: 5px;
+    }
+
+    .active-step {
+      color: gold;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <img src="logo.png" alt="Kim Milyoner Olmak İstemez Ki" class="logo" />
+
+  <div class="lifelines">
+    <img src="5050.png" class="lifeline" title="%50 Jokeri" />
+    <img src="phone.png" class="lifeline" title="Telefon Jokeri" />
+    <img src="audience.png" class="lifeline" title="Seyirci Jokeri" />
+  </div>
+
+  <div class="question-box" id="question">Soru burada gözükecek</div>
+
+  <div class="options">
+    <div class="option" id="optionA">A şıkkı</div>
+    <div class="option" id="optionB">B şıkkı</div>
+    <div class="option" id="optionC">C şıkkı</div>
+    <div class="option" id="optionD">D şıkkı</div>
+  </div>
+
+  <div class="money-ladder">
+    <div class="money-step">10. 1.000.000₺</div>
+    <div class="money-step">9. 500.000₺</div>
+    <div class="money-step">8. 250.000₺</div>
+    <div class="money-step">7. 125.000₺</div>
+    <div class="money-step">6. 60.000₺</div>
+    <div class="money-step">5. 30.000₺</div>
+    <div class="money-step">4. 15.000₺</div>
+    <div class="money-step">3. 7.500₺</div>
+    <div class="money-step">2. 3.000₺</div>
+    <div class="money-step active-step">1. 500₺</div>
+  </div>
+
+  <script>
+    // Burada sorular ve seçenekler eklenecek (JSON'dan veya manuel)
+  </script>
+</body>
+</html>
